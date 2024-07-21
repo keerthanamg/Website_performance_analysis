@@ -73,3 +73,25 @@ Analyze the correlations between them:
 - plot 2: average engagement time vs engagement rate
 - plot 3: engaged sessions per user vs events per session
 - plot 4: engaged sessions per user vs engagement rate
+
+!["Alt text"](website-performance-3.webp)
+
+# Step 8:
+Here’s what we can analyze from the above scatter plots:
+
+- Average Engagement Time vs Events per Session: There appears to be a concentration of data points at lower average engagement times with a wide range of events per session. As the average engagement time increases, the number of events per session tends to cluster more narrowly around lower values.
+- Average Engagement Time vs Engagement Rate: There is a clear trend where sessions with very low engagement times have a broad range of engagement rates, but as engagement time increases, the engagement rate converges towards higher values.
+- Engaged Sessions per User vs Events per Session: Most data points cluster at lower values for both metrics, with few users having a high number of engaged sessions or events per session.
+- Engaged Sessions per User vs Engagement Rate: There is a strong positive correlation between engaged sessions per user and engagement rate, especially noticeable at higher values of engaged sessions per user.
+
+# Step 9:
+We will now proceed with the Channel Performance Analysis to assess how different marketing channels contribute to traffic and engagement. 
+It will involve analyzing the session, user, and engagement data segmented by the marketing channel:
+- Group data by channel and aggregate necessary metrics
+- Normalize engagement rate and events per session for comparison
+- Plotting channel performance metrics
+- Users and sessions by channel
+- Normalized engagement rate by channel
+- Normalized events per session by channel
+
+!["Alt text"]()
