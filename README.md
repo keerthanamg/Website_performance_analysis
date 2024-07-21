@@ -50,3 +50,11 @@ The overall purpose of the above operation is to prepare and summarize the datas
 # Step 4:
 - Now, let’s analyze the total users and sessions over time.
 - Plotting the aggregated users and sessions over time:
+- website-performance-1.webp 
+- From the graph, we can observe there are some fluctuations in the number of users and sessions, possibly indicating daily cycles or specific high-traffic periods. Both users and sessions appear to follow a similar trend, which is expected as more users generally mean more sessions. Some peaks might correspond to specific marketing activities, promotions, or events.
+
+# Step 5:
+Now that we’ve analyzed the session trends, let’s move on to User Engagement Analysis. We will look into metrics like average engagement time per session, engagement rate, and events per session to evaluate how engaged users are when they visit the site:
+
+# Step 6:
+- 
