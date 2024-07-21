@@ -57,6 +57,19 @@ Now that we’ve analyzed the session trends, let’s move on to User Engagement
 - Convert relevant columns to numeric for engagement analysis
 - Group data by date and calculate mean for engagement metrics
 - Plotting engagement metrics
+  
+!["Alt text"](https://github.com/keerthanamg/Website_performance_analysis/blob/bb577bc3f46e17042221d27b7295b778d325c800/website-performance-2.webp)
 
 # Step 6:
-- 
+The user engagement analysis provides insights into how visitors interact with the website:
+- Average Engagement Time per Session: The time spent per session shows fluctuations over the observed period. There are noticeable peaks, suggesting times when users were particularly engaged, potentially due to specific content releases or events.
+- Engaged Sessions per User: This ratio fluctuates slightly but generally indicates that a good portion of sessions per user are engaged. Peaks in this metric could correspond to times when users find the content more relevant or engaging.
+- Events per Session: The count of events per session remains relatively consistent but does show some variation. Peaks here could indicate more interactive content or features being used by visitors.
+- Engagement Rate: The engagement rate over time shows how many sessions are considered engaged out of the total. There are some ups and downs which may relate to how different content resonates with users or how effective certain user acquisition channels are.
+
+# Step 7:
+Analyze the correlations between them:
+- plot 1: average engagement time vs events per session
+- plot 2: average engagement time vs engagement rate
+- plot 3: engaged sessions per user vs events per session
+- plot 4: engaged sessions per user vs engagement rate
