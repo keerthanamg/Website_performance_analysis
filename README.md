@@ -51,6 +51,7 @@ The overall purpose of the above operation is to prepare and summarize the datas
 - Now, let’s analyze the total users and sessions over time.
 - Plotting the aggregated users and sessions over time:
 - https://github.com/keerthanamg/Website_performance_analysis/blob/4dc3f85e99a7df9f134b801c4e238eadad9d53d4/website-performance-1.webp
+- https://raw.githubusercontent.com/keerthanamg/Website_performance_analysis/4dc3f85e99a7df9f134b801c4e238eadad9d53d4/website-performance-1.webp
 - website-performance-1.webp 
 - From the graph, we can observe there are some fluctuations in the number of users and sessions, possibly indicating daily cycles or specific high-traffic periods. Both users and sessions appear to follow a similar trend, which is expected as more users generally mean more sessions. Some peaks might correspond to specific marketing activities, promotions, or events.
 
