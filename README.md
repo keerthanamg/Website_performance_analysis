@@ -31,13 +31,13 @@ The dataset we are working on contains the following columns:
 - And load the dataset.
 
 ### Step 2:
-- print(data.head()): There are some errors in the first row of the dataset, which usually occurs while collecting the data from websites. The data starts from the second row, let’s prepare it accordingly:
+print(data.head()): There are some errors in the first row of the dataset, which usually occurs while collecting the data from websites. The data starts from the second row, let’s prepare it accordingly:
 - Grab the first row for the header
 - Take the data less the header row
 - Set the header row as the df header
 
 ### Step 3:
-- Converting the date column into an appropriate datetime format and group it for further analysis:
+Converting the date column into an appropriate datetime format and group it for further analysis:
 - data['Date + hour (YYYYMMDDHH)'] = pd.to_datetime(data['Date + hour (YYYYMMDDHH)'], format='%Y%m%d%H')
 - data['Users'] = pd.to_numeric(data['Users'])
 - data['Sessions'] = pd.to_numeric(data['Sessions'])
