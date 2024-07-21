@@ -32,14 +32,12 @@ The dataset we are working on contains the following columns:
 
 # Step 2:
 - print(data.head()): There are some errors in the first row of the dataset, which usually occurs while collecting the data from websites. The data starts from the second row, let’s prepare it accordingly:
-- new_header = data.iloc[0]  # grab the first row for the header
-- data = data[1:]  # take the data less the header row
-- data.columns = new_header  # set the header row as the df header
-- data.reset_index(drop=True, inplace=True)
-- print(data.head())
+- Grab the first row for the header
+- Take the data less the header row
+- Set the header row as the df header
 
 # Step 3:
-- Now, let’s convert the date column into an appropriate datetime format and group it for further analysis:
+- Converting the date column into an appropriate datetime format and group it for further analysis:
 - data['Date + hour (YYYYMMDDHH)'] = pd.to_datetime(data['Date + hour (YYYYMMDDHH)'], format='%Y%m%d%H')
 - data['Users'] = pd.to_numeric(data['Users'])
 - data['Sessions'] = pd.to_numeric(data['Sessions'])
@@ -50,14 +48,15 @@ The overall purpose of the above operation is to prepare and summarize the datas
 # Step 4:
 - Now, let’s analyze the total users and sessions over time.
 - Plotting the aggregated users and sessions over time:
-- https://github.com/keerthanamg/Website_performance_analysis/blob/4dc3f85e99a7df9f134b801c4e238eadad9d53d4/website-performance-1.webp
-- https://raw.githubusercontent.com/keerthanamg/Website_performance_analysis/4dc3f85e99a7df9f134b801c4e238eadad9d53d4/website-performance-1.webp
-- website-performance-1.webp
-- !["Alt text"](website-performance-1.webp)
-- From the graph, we can observe there are some fluctuations in the number of users and sessions, possibly indicating daily cycles or specific high-traffic periods. Both users and sessions appear to follow a similar trend, which is expected as more users generally mean more sessions. Some peaks might correspond to specific marketing activities, promotions, or events.
+!["Alt text"](website-performance-1.webp)
+
+From the graph, we can observe there are some fluctuations in the number of users and sessions, possibly indicating daily cycles or specific high-traffic periods. Both users and sessions appear to follow a similar trend, which is expected as more users generally mean more sessions. Some peaks might correspond to specific marketing activities, promotions, or events.
 
 # Step 5:
 Now that we’ve analyzed the session trends, let’s move on to User Engagement Analysis. We will look into metrics like average engagement time per session, engagement rate, and events per session to evaluate how engaged users are when they visit the site:
+- Convert relevant columns to numeric for engagement analysis
+- Group data by date and calculate mean for engagement metrics
+- Plotting engagement metrics
 
 # Step 6:
 - 
