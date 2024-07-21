@@ -114,4 +114,15 @@ The other parameter is d, representing seasonality. In our case, as seasonality 
 - forecast the next 24 hours using the SARIMA model
 - plotting the actual data and the SARIMA forecast
 
-!["Alt text"]()
+!["Alt text"](website-performance-6.webp)
+
+So this is how we can analyze the performance of a website and forecast its traffic using Python.
+
+
+## Summary
+Conducted a comprehensive analysis of the website’s performance, based on:
+
+- Session Analysis: Understanding traffic trends.
+- User Engagement Analysis: Gauging the depth of user interaction.
+- Channel Performance: Evaluating which channels are most effective.
+- Website Traffic Forecasting: Predicting future traffic patterns.
